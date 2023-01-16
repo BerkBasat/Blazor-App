@@ -1,0 +1,41 @@
+.media-img[b-tsdrm59xcm]{
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+    .media-img:hover[b-tsdrm59xcm]{
+        transform: scale(1.1);
+    }
+
+.media[b-tsdrm59xcm] {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body[b-tsdrm59xcm] {
+    flex: 1;
+}
+
+.media-img-wrapper[b-tsdrm59xcm] {
+    width: 200px;
+    text-align: center;
+}
+
+.price[b-tsdrm59xcm] {
+    color: green;
+}
+
+@media (max-width: 1023.98px) {
+    .media[b-tsdrm59xcm] {
+        flex-direction: column;
+    }
+
+    .media-img-wrapper[b-tsdrm59xcm] {
+        width: 100%;
+        height: auto;
+    }
+}
+
