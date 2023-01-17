@@ -10,23 +10,12 @@
         transform: scale(1.1);
     }
 
-.media[b-tsdrm59xcm] {
-    display: flex;
-    align-items: flex-start;
-}
-
-.media-body[b-tsdrm59xcm] {
-    flex: 1;
-}
 
 .media-img-wrapper[b-tsdrm59xcm] {
     width: 200px;
     text-align: center;
 }
 
-.price[b-tsdrm59xcm] {
-    color: green;
-}
 
 @media (max-width: 1023.98px) {
     .media[b-tsdrm59xcm] {

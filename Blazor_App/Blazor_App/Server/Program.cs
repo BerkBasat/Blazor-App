@@ -1,6 +1,8 @@
 global using Blazor_App.Shared;
 global using Microsoft.EntityFrameworkCore;
 using Blazor_App.Server.Data;
+using Blazor_App.Server.Services.CategoryService;
+using Blazor_App.Server.Services.ProductService;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+
 
 var app = builder.Build();
 

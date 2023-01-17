@@ -10,3 +10,15 @@ C:\Users\Huawei\source\repos\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazo
 C:\Users\Huawei\source\repos\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\refint\Blazor_App.Shared.dll
 C:\Users\Huawei\source\repos\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.pdb
 C:\Users\Huawei\source\repos\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\ref\Blazor_App.Shared.dll
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\bin\Debug\net6.0\Blazor_App.Shared.deps.json
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\bin\Debug\net6.0\Blazor_App.Shared.dll
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\bin\Debug\net6.0\Blazor_App.Shared.pdb
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.csproj.AssemblyReference.cache
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.AssemblyInfoInputs.cache
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.AssemblyInfo.cs
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.dll
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\refint\Blazor_App.Shared.dll
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\Blazor_App.Shared.pdb
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Shared\obj\Debug\net6.0\ref\Blazor_App.Shared.dll

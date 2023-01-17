@@ -1,0 +1,28 @@
+.media-img[b-dry039jwmw] {
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 6px;
+    margin: 0 10px 10px 10px;
+}
+
+.media-img-wrapper[b-dry039jwmw] {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+@media (max-width: 1023.98.px) {
+    .media[b-dry039jwmw] {
+        flex-direction: column;
+    }
+
+    .media-img[b-dry039jwmw] {
+        max-width: 300px;
+    }
+
+    .media-img-wrapper[b-dry039jwmw] {
+        width: 100%;
+        height: auto;
+    }
+}
+
