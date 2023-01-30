@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -55,3 +59,11 @@ build_metadata.AdditionalFiles.CssScope = b-04npj89462
 [C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/ProductList.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-tsdrm59xcm
+
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/ShopLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3BMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ckyvx6ltjf
+
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/ShopNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3BOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-9tmxtxqoks

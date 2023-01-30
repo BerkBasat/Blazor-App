@@ -1657,3 +1657,5 @@ C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\Blazor_App.Client.pdb
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\ref\Blazor_App.Client.dll
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Pages\ProductDetails.razor.rz.scp.css
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Shared\ShopLayout.razor.rz.scp.css
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Shared\ShopNavMenu.razor.rz.scp.css
