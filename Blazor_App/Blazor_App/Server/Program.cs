@@ -1,6 +1,6 @@
 global using Blazor_App.Shared;
 global using Microsoft.EntityFrameworkCore;
-using Blazor_App.Client.Services.CartService;
+using Blazor_App.Server.Services.CartService;
 using Blazor_App.Server.Data;
 using Blazor_App.Server.Services.CategoryService;
 using Blazor_App.Server.Services.ProductService;

@@ -1665,3 +1665,4 @@ C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\bin\Debug\
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\bin\Debug\net6.0\Blazored.LocalStorage.dll
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\build-gz\bV0dp5Tq.gz
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Pages\Cart.razor.rz.scp.css
