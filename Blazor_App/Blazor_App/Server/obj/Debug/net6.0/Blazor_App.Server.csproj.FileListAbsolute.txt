@@ -94,7 +94,6 @@ C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.AssemblyInfoInputs.cache
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.AssemblyInfo.cs
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.csproj.CoreCompileInputs.cache
-C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.RazorAssemblyInfo.cache
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.RazorAssemblyInfo.cs

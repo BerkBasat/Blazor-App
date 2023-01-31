@@ -48,6 +48,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dry039jwmw
 
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/FeaturedProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZlYXR1cmVkUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-t6z4lgig3y
+
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/HomeButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhvbWVCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hn4c8xztkb
+
 [C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-w0s6mpvf8v
