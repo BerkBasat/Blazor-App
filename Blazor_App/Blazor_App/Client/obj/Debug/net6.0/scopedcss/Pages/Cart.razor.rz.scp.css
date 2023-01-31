@@ -21,5 +21,10 @@ image-wrapper[b-6j08isvs0a] {
 
 .cart-product-price[b-6j08isvs0a] {
     font-weight: 600;
-    text-align: right;
+    text-align: center;
+}
+
+.input-quantity[b-6j08isvs0a] {
+    width: 70px;
+
 }

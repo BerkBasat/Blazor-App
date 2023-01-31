@@ -21,5 +21,10 @@ image-wrapper {
 
 .cart-product-price {
     font-weight: 600;
-    text-align: right;
+    text-align: center;
+}
+
+.input-quantity {
+    width: 70px;
+
 }
