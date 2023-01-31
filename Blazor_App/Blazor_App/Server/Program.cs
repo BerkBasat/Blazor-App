@@ -1,5 +1,6 @@
 global using Blazor_App.Shared;
 global using Microsoft.EntityFrameworkCore;
+using Blazor_App.Client.Services.CartService;
 using Blazor_App.Server.Data;
 using Blazor_App.Server.Services.CategoryService;
 using Blazor_App.Server.Services.ProductService;
@@ -21,6 +22,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICartService, CartService>();
 
 
 var app = builder.Build();

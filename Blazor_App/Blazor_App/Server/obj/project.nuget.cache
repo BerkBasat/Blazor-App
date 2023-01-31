@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OY2h0CYULVpfItY1BhlW68dvmECTZlOCL3uujjpxJgPO/HSC+irKwY3pcDKGgdaNphwKs2uWTob3gdCrM1omfw==",
+  "dgSpecHash": "FoR+12AgW/peVSIhwhRQX+c+0ieT76cvJFqVL4pgN3d5ubMLpvVomOd9V9ds5+/wwUWpRp4EtUNCOawG5l90eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Server\\Blazor_App.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Huawei\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\microsoft.aspnetcore.components.6.0.8.nupkg.sha512",
