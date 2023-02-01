@@ -1,6 +1,7 @@
 ﻿using Blazor_App.Server.Data;
 using Blazor_App.Server.Services.ProductService;
 using Blazor_App.Shared.DTOs;
+using Blazor_App.Shared.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,4 +1,5 @@
 ﻿using Blazor_App.Server.Services.CategoryService;
+using Blazor_App.Shared.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

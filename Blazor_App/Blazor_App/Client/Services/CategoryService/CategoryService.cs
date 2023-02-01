@@ -1,4 +1,6 @@
-﻿namespace Blazor_App.Client.Services.CategoryService
+﻿using Blazor_App.Shared.Models;
+
+namespace Blazor_App.Client.Services.CategoryService
 {
     public class CategoryService : ICategoryService
     {

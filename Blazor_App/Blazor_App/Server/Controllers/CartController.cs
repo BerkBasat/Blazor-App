@@ -1,5 +1,6 @@
 ﻿using Blazor_App.Server.Services.CartService;
 using Blazor_App.Shared.DTOs;
+using Blazor_App.Shared.VM;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

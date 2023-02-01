@@ -1,5 +1,5 @@
-﻿using Blazor_App.Shared;
-using Blazor_App.Shared.DTOs;
+﻿using Blazor_App.Shared.DTOs;
+using Blazor_App.Shared.VM;
 using Blazored.LocalStorage;
 
 namespace Blazor_App.Client.Services.CartService

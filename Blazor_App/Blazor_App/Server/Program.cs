@@ -5,6 +5,7 @@ using Blazor_App.Server.Data;
 using Blazor_App.Server.Services.CategoryService;
 using Blazor_App.Server.Services.ProductService;
 using Microsoft.AspNetCore.ResponseCompression;
+using Blazor_App.Server.Services.AuthService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +24,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
-
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 var app = builder.Build();
 

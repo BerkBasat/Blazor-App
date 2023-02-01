@@ -1,4 +1,6 @@
-﻿namespace Blazor_App.Client.Services.ProductService
+﻿using Blazor_App.Shared.Models;
+
+namespace Blazor_App.Client.Services.ProductService
 {
     public interface IProductService
     {

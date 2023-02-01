@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Blazor_App.Shared.Models;
 
 namespace Blazor_App.Shared.DTOs
 {

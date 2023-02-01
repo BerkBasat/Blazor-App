@@ -1,4 +1,5 @@
 ﻿using Blazor_App.Shared.DTOs;
+using Blazor_App.Shared.VM;
 
 namespace Blazor_App.Server.Services.CartService
 {
