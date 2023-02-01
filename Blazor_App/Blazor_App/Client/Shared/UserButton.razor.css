@@ -1,0 +1,16 @@
+﻿.show-menu {
+    display: block;
+}
+
+.user-button {
+    margin-left: .5em;
+}
+
+.top-row a {
+
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    text-decoration: none;
+}
