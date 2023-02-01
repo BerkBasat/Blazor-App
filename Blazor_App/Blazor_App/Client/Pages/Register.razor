@@ -1,8 +1,9 @@
 ﻿@page "/register"
+@inject IAuthService AuthService
 
 <PageTitle>Register</PageTitle>
 
-<center>REGISTER</center>
+<center><h2>REGISTER</h2></center>
 
 
 <EditForm Model="user" OnValidSubmit="HandleRegistration">
@@ -23,13 +24,22 @@
         <ValidationMessage For="@(() => user.ConfirmPassword)" />
     </div>
     <button type="submit" class="btn btn-primary">Register</button>
+    <div class="text-danger mt-2">
+        <span>@errorMessage</span>
+    </div>
 </EditForm>
 
 @code {
     UserRegister user = new UserRegister();
 
-    void HandleRegistration()
+    string errorMessage = string.Empty;
+
+    async Task HandleRegistration()
     {
-        Console.WriteLine("Register user");
+        var result = await AuthService.Register(user);
+        if (!result.Success)
+            errorMessage = result.Message;
+        else
+            errorMessage = string.Empty;
     }
 }

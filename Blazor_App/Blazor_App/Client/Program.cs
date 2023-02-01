@@ -1,6 +1,7 @@
 global using Blazor_App.Shared;
 global using System.Net.Http.Json;
 using Blazor_App.Client;
+using Blazor_App.Client.Services.AuthService;
 using Blazor_App.Client.Services.CartService;
 using Blazor_App.Client.Services.CategoryService;
 using Blazor_App.Client.Services.ProductService;
@@ -17,5 +18,6 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 await builder.Build().RunAsync();
