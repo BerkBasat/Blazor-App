@@ -181,3 +181,4 @@ C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\ref\Blazor_App.Server.dll
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\obj\Debug\net6.0\Blazor_App.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll

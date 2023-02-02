@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BmhrnN3mKnOap83Lx/+TFiusJV3IS/ivZ6VaUN11BLo=",
+  "Hash": "2PcbwwXLfiDojiTMVQ4BuIdIlBwXI20I3Gid8ezBhSM=",
   "Source": "Blazor_App.Server",
   "BasePath": "_content/Blazor_App.Server",
   "Mode": "Default",
@@ -284,6 +284,23 @@
       "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
       "SourceId": "Blazor_App.Client",
       "SourceType": "Project",
@@ -367,6 +384,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.WebUtilities.dll"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -656,6 +690,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\lib\\netstandard2.0\\Microsoft.Net.Http.Headers.dll"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -4432,6 +4483,23 @@
       "OriginalItemSpec": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.dll"
     },
     {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\obj\\Debug\\net6.0\\build-gz\\cY9CzYft.gz",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\obj\\Debug\\net6.0\\build-gz\\cyLvt2dp.gz",
       "SourceId": "Blazor_App.Client",
       "SourceType": "Project",
@@ -4685,6 +4753,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\obj\\Debug\\net6.0\\build-gz\\eutiFIZ3.gz",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\obj\\Debug\\net6.0\\build-gz\\eXs7xM4V.gz",
@@ -6487,6 +6572,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.ThreadPool.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\obj\\Debug\\net6.0\\build-gz\\vXZ8E9DQ.gz",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\obj\\Debug\\net6.0\\build-gz\\W1PpPV9c.gz",

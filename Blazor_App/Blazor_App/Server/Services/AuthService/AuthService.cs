@@ -1,6 +1,9 @@
 ﻿using Blazor_App.Server.Data;
 using Blazor_App.Shared.Models;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 
 namespace Blazor_App.Server.Services.AuthService
@@ -8,10 +11,12 @@ namespace Blazor_App.Server.Services.AuthService
     public class AuthService : IAuthService
     {
         private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration;
 
-        public AuthService(AppDbContext context)
+        public AuthService(AppDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         public async Task<ServiceResponse<string>> Login(string email, string password)
@@ -30,7 +35,7 @@ namespace Blazor_App.Server.Services.AuthService
             }
             else
             {
-                response.Data = "token";
+                response.Data = CreateToken(user);
             }
 
 
@@ -73,6 +78,32 @@ namespace Blazor_App.Server.Services.AuthService
             return false;
         }
 
+        public async Task<ServiceResponse<bool>> ChangePassword(int userId, string newPassword)
+        {
+            var user = await _context.Users.FindAsync(userId);
+            if(user == null)
+            {
+                return new ServiceResponse<bool>
+                {
+                    Success = false,
+                    Message = "User not found!"
+                };
+            }
+
+            CreatePasswordHash(newPassword, out byte[] passwordHash, out byte[] passwordSalt);
+
+            user.PasswordHash = passwordHash;
+            user.PasswordSalt = passwordSalt;
+
+            await _context.SaveChangesAsync();
+
+            return new ServiceResponse<bool>
+            {
+                Data = true,
+                Message = "Password has been changed"
+            };
+        }
+
         // Generate a password hash to encrypt the user passwords in database
         private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
@@ -90,6 +121,29 @@ namespace Blazor_App.Server.Services.AuthService
                 var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
                 return computedHash.SequenceEqual(passwordHash);
             }
+        }
+
+        private string CreateToken(User user)
+        {
+            List<Claim> claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.Email),
+            };
+
+            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value));
+
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+
+            var token = new JwtSecurityToken(
+                claims : claims,
+                expires: DateTime.Now.AddDays(1),
+                signingCredentials: creds
+                );
+
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+
+            return jwt;
         }
     }
 }
