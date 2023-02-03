@@ -1,17 +1,22 @@
 ﻿using Blazor_App.Server.Data;
 using Blazor_App.Shared.DTOs;
-using Blazor_App.Shared.VM;
+using Blazor_App.Shared.Models;
+using System.Security.Claims;
 
 namespace Blazor_App.Server.Services.CartService
 {
     public class CartService : ICartService
     {
         private readonly AppDbContext _context;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public CartService(AppDbContext context)
+        public CartService(AppDbContext context, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
+            _httpContextAccessor = httpContextAccessor;
         }
+
+        private int GetUserId() => int.Parse(_httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier));
 
         public async Task<ServiceResponse<List<CartProductResponseDto>>> GetCartProducts(List<CartItem> cartItems)
         {
@@ -58,6 +63,15 @@ namespace Blazor_App.Server.Services.CartService
             }
 
             return result;
+        }
+
+        public async Task<ServiceResponse<List<CartProductResponseDto>>> StoreCartItems(List<CartItem> cartItems)
+        {
+            cartItems.ForEach(item => item.UserId = GetUserId());
+            _context.CartItems.AddRange(cartItems);
+            await _context.SaveChangesAsync();
+
+            return await GetCartProducts(await _context.CartItems.Where(ci => ci.UserId == GetUserId()).ToListAsync());
         }
     }
 }

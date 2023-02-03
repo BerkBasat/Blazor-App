@@ -1,5 +1,5 @@
 ﻿using Blazor_App.Shared.DTOs;
-using Blazor_App.Shared.VM;
+using Blazor_App.Shared.Models;
 
 namespace Blazor_App.Client.Services.CartService
 {
@@ -11,5 +11,6 @@ namespace Blazor_App.Client.Services.CartService
         Task<List<CartProductResponseDto>> GetCartProducts();
         Task RemoveProductFromCart(int productId, int productTypeId);
         Task UpdateQuantity(CartProductResponseDto product);
+        Task StoreCartItems(bool emptyLocalCart);
     }
 }

@@ -1,8 +1,9 @@
 ﻿using Blazor_App.Server.Services.CartService;
 using Blazor_App.Shared.DTOs;
-using Blazor_App.Shared.VM;
+using Blazor_App.Shared.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Blazor_App.Server.Controllers
 {
@@ -21,6 +22,13 @@ namespace Blazor_App.Server.Controllers
         public async Task<ActionResult<ServiceResponse<List<CartProductResponseDto>>>> GetCartProducts(List<CartItem> cartItems)
         {
             var result = await _cartService.GetCartProducts(cartItems);
+            return Ok(result);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<ServiceResponse<List<CartProductResponseDto>>>> StoreCartItems(List<CartItem> cartItems)
+        {
+            var result = await _cartService.StoreCartItems(cartItems);
             return Ok(result);
         }
     }

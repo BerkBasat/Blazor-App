@@ -1,5 +1,6 @@
-﻿using Blazor_App.Shared.DTOs;
-using Blazor_App.Shared.VM;
+﻿using Blazor_App.Client.Pages;
+using Blazor_App.Shared.DTOs;
+using Blazor_App.Shared.Models;
 using Blazored.LocalStorage;
 
 namespace Blazor_App.Client.Services.CartService
@@ -8,17 +9,28 @@ namespace Blazor_App.Client.Services.CartService
     {
         private readonly ILocalStorageService _localStorage;
         private readonly HttpClient _httpClient;
+        private readonly AuthenticationStateProvider _authStateProvider;
 
-        public CartService(ILocalStorageService localStorage, HttpClient httpClient)
+        public CartService(ILocalStorageService localStorage, HttpClient httpClient, AuthenticationStateProvider authStateProvider)
         {
             _localStorage = localStorage;
             _httpClient = httpClient;
+            _authStateProvider = authStateProvider;
         }
 
         public event Action OnChange;
 
         public async Task AddToCart(CartItem cartItem)
         {
+            if((await _authStateProvider.GetAuthenticationStateAsync()).User.Identity.IsAuthenticated)
+            {
+                Console.WriteLine("User is authenticated.");
+            }
+            else
+            {
+                Console.WriteLine("User is NOT authenticated.");
+            }
+
             var cart = await _localStorage.GetItemAsync<List<CartItem>>("cart");
             if (cart == null)
             {
@@ -75,6 +87,22 @@ namespace Blazor_App.Client.Services.CartService
                 OnChange.Invoke();
             }
 
+        }
+
+        public async Task StoreCartItems(bool emptyLocalCart = false)
+        {
+            var localCart = await _localStorage.GetItemAsync<List<CartItem>>("cart");
+            if (localCart == null)
+            {
+                return;
+            }
+
+            await _httpClient.PostAsJsonAsync("api/cart", localCart);
+
+            if(emptyLocalCart)
+            {
+                await _localStorage.RemoveItemAsync("cart");
+            }
         }
 
         public async Task UpdateQuantity(CartProductResponseDto product)
