@@ -71,7 +71,48 @@ namespace Blazor_App.Server.Services.CartService
             _context.CartItems.AddRange(cartItems);
             await _context.SaveChangesAsync();
 
+            return await GetDbCartProducts();
+        }
+
+        public async Task<ServiceResponse<int>> GetCartItemsCount()
+        {
+            var count = (await _context.CartItems.Where(ci => ci.UserId == GetUserId()).ToListAsync()).Count();
+
+            return new ServiceResponse<int>
+            {
+                Data = count
+            };
+        }
+
+        public async Task<ServiceResponse<List<CartProductResponseDto>>> GetDbCartProducts()
+        {
             return await GetCartProducts(await _context.CartItems.Where(ci => ci.UserId == GetUserId()).ToListAsync());
+        }
+
+        public async Task<ServiceResponse<bool>> AddToCart(CartItem cartItem)
+        {
+            cartItem.UserId = GetUserId();
+
+            var sameItem = await _context.CartItems.
+                FirstOrDefaultAsync(ci => 
+                ci.ProductId == cartItem.ProductId && 
+                ci.ProductId == cartItem.ProductTypeId &&
+                ci.UserId == cartItem.UserId);
+            if (sameItem == null)
+            {
+                _context.CartItems.Add(cartItem);
+            }
+            else
+            {
+                sameItem.Quantity += cartItem.Quantity;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return new ServiceResponse<bool>
+            {
+                Data = true
+            };
         }
     }
 }

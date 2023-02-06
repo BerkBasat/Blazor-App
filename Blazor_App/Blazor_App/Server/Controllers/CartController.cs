@@ -31,5 +31,28 @@ namespace Blazor_App.Server.Controllers
             var result = await _cartService.StoreCartItems(cartItems);
             return Ok(result);
         }
+
+        [HttpPost("add")]
+        public async Task<ActionResult<ServiceResponse<bool>>> AddToCart(CartItem cartItem)
+        {
+            var result = await _cartService.AddToCart(cartItem);
+            return Ok(result);
+        }
+
+
+        [HttpGet]
+        [Route("Count")]
+        public async Task<ActionResult<ServiceResponse<int>>> GetCartItemsCount()
+        {
+            return await _cartService.GetCartItemsCount();
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<ServiceResponse<List<CartProductResponseDto>>>> GetDbCartProducts()
+        {
+            var result = await _cartService.GetDbCartProducts();
+            return Ok(result);
+        }
+
     }
 }
