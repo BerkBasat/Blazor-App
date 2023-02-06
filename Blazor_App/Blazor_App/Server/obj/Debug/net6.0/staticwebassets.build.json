@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2PcbwwXLfiDojiTMVQ4BuIdIlBwXI20I3Gid8ezBhSM=",
+  "Hash": "Q60UXtlEA4k9M24UuZRtrHTK0TD6DlqMdPzWl+s2Wx4=",
   "Source": "Blazor_App.Server",
   "BasePath": "_content/Blazor_App.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "Blazor_App.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true;Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -28,40 +28,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
-      "SourceId": "Blazor_App.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.boot.json",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "manifest",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj\\Debug\\net6.0\\blazor.boot.json"
-    },
-    {
-      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "SourceId": "Blazor_App.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "boot",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\build\\net6.0\\blazor.webassembly.js"
-    },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazor_App.Client.dll",
       "SourceId": "Blazor_App.Client",
@@ -129,6 +95,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Shared\\bin\\Debug\\net6.0\\Blazor_App.Shared.pdb"
+    },
+    {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.boot.json",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "manifest",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "obj\\Debug\\net6.0\\blazor.boot.json"
+    },
+    {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "boot",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\build\\net6.0\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
@@ -199,23 +199,6 @@
       "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
-      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "Blazor_App.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\icudt.dat"
-    },
-    {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "Blazor_App.Client",
       "SourceType": "Project",
@@ -265,6 +248,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -7084,6 +7084,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Blazor_App.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Blazor_App.Client",
       "SourceType": "Project",
@@ -7184,23 +7201,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "Blazor_App.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

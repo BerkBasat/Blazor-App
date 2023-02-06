@@ -120,7 +120,8 @@ namespace Blazor_App.Server.Services.CartService
 
         public async Task<ServiceResponse<bool>> UpdateQuantity(CartItem cartItem)
         {
-            //TODO: Update and delete returns null for some of the products but works fine on others???
+
+            //TODO: Update and delete returns null(false) for some of the products but works fine on others???
             var dbCartItem = await _context.CartItems.
                 FirstOrDefaultAsync(ci =>
                 ci.ProductId == cartItem.ProductId &&
