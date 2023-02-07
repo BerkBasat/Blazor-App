@@ -22,6 +22,12 @@ namespace Blazor_App.Client.Services.OrderService
             return result.Data;
         }
 
+        public async Task<OrderDetailsResponseDto> GetOrderDetails(int orderId)
+        {
+            var result = await _http.GetFromJsonAsync<ServiceResponse<OrderDetailsResponseDto>>($"api/order/{orderId}");
+            return result.Data;
+        }
+
         public async Task PlaceOrder()
         {
             if(await IsUserAuthenticated())

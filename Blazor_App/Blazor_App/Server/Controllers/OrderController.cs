@@ -30,5 +30,13 @@ namespace Blazor_App.Server.Controllers
             return Ok(result);
         }
 
+        [HttpGet]
+        [Route("{orderId}")]
+        public async Task<ActionResult<ServiceResponse<OrderDetailsResponseDto>>> GetOrderDetails(int orderId)
+        {
+            var result = await _orderService.GetOrderDetails(orderId);
+            return Ok(result);
+        }
+
     }
 }
