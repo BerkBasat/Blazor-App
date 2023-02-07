@@ -29,6 +29,38 @@ image-wrapper[b-6j08isvs0a] {
     width: 70px;
 
 }
+/* /Pages/Orders.razor.rz.scp.css */
+.container[b-yzufzu20ue] {
+    display: flex;
+    padding: 6px;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+}
+
+.image-wrapper[b-yzufzu20ue] {
+    width: 150px;
+    text-align: center;
+}
+
+.image[b-yzufzu20ue] {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+}
+
+.details[b-yzufzu20ue] {
+    flex-grow: 1;
+    padding: 6px;
+}
+
+.order-price[b-yzufzu20ue] {
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: right;
+}
 /* /Pages/ProductDetails.razor.rz.scp.css */
 .media-img[b-dry039jwmw] {
     max-height: 500px;

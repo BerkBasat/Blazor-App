@@ -1679,3 +1679,4 @@ C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\bin\Debug\
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\build-gz\eutiFIZ3.gz
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\build-gz\vXZ8E9DQ.gz
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Pages\Orders.razor.rz.scp.css
