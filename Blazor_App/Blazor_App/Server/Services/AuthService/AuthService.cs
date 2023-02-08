@@ -151,5 +151,10 @@ namespace Blazor_App.Server.Services.AuthService
 
             return jwt;
         }
+
+        public async Task<User> GetUserByEmail(string email)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.Email.Equals(email));
+        }
     }
 }
