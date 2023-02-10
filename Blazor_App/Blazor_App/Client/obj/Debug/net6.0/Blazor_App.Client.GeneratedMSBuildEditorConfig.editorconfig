@@ -72,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-5vp81raq68
 
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Pages/Admin/ProductTypes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFR5cGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ei1p31k9pj
+
 [C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Pages/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-6j08isvs0a

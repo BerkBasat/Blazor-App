@@ -14,10 +14,34 @@ namespace Blazor_App.Client.Services.ProductTypeService
 
         public event Action OnChange;
 
+        public async Task AddProductType(ProductType productType)
+        {
+            var response = await _http.PostAsJsonAsync("api/producttype", productType);
+            ProductTypes = (await response.Content.ReadFromJsonAsync<ServiceResponse<List<ProductType>>>()).Data;
+            OnChange.Invoke();
+        }
+
+        public async Task UpdateProductType(ProductType productType)
+        {
+            var response = await _http.PutAsJsonAsync("api/producttype", productType);
+            ProductTypes = (await response.Content.ReadFromJsonAsync<ServiceResponse<List<ProductType>>>()).Data;
+            OnChange.Invoke();
+        }
+
+        public ProductType CreateNewProductType()
+        {
+            var productType = new ProductType { IsNew = true, Editing = true };
+
+            ProductTypes.Add(productType);
+            OnChange.Invoke();
+            return productType;
+        }
+
         public async Task GetProductTypes()
         {
             var result = await _http.GetFromJsonAsync<ServiceResponse<List<ProductType>>>("api/producttype");
             ProductTypes = result.Data;
         }
+
     }
 }
