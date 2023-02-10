@@ -1,5 +1,6 @@
 ﻿using Blazor_App.Server.Services.CategoryService;
 using Blazor_App.Shared.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,36 @@ namespace Blazor_App.Server.Controllers
         public async Task<ActionResult<ServiceResponse<List<Category>>>> GetCategories()
         {
             var result = await _categoryService.GetCategories();
+            return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("admin"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<List<Category>>>> GetAdminCategories()
+        {
+            var result = await _categoryService.GetAdminCategories();
+            return Ok(result);
+        }
+
+        [HttpPost("admin"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<List<Category>>>> AddCategory(Category category)
+        {
+            var result = await _categoryService.AddCategory(category);
+            return Ok(result);
+        }
+
+        [HttpPut("admin"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<List<Category>>>> UpdateCategory(Category category)
+        {
+            var result = await _categoryService.UpdateCategory(category);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        [Route("admin/{id}"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<List<Category>>>> DeleteCategory(int id)
+        {
+            var result = await _categoryService.DeleteCategory(id);
             return Ok(result);
         }
     }

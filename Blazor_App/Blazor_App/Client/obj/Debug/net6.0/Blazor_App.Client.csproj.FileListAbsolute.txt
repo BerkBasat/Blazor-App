@@ -1681,3 +1681,5 @@ C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\build-gz\vXZ8E9DQ.gz
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Pages\Orders.razor.rz.scp.css
 C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Pages\OrderDetails.razor.rz.scp.css
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Shared\AdminMenu.razor.rz.scp.css
+C:\Users\Huawei\Desktop\Github\BlazorApp\Blazor_App\Blazor_App\Client\obj\Debug\net6.0\scopedcss\Pages\Admin\Categories.razor.rz.scp.css

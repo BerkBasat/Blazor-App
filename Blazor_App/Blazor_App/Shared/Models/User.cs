@@ -14,5 +14,6 @@ namespace Blazor_App.Shared.Models
         public byte[] PasswordSalt { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public Address Address { get; set; }
+        public string Role { get; set; } = "Customer";
     }
 }

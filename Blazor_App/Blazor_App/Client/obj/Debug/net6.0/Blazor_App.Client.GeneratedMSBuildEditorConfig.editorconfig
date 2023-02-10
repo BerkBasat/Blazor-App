@@ -68,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Pages/Admin/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5vp81raq68
+
 [C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Pages/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-6j08isvs0a
@@ -83,6 +87,10 @@ build_metadata.AdditionalFiles.CssScope = b-yzufzu20ue
 [C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dry039jwmw
+
+[C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/AdminMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkbWluTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-agxg8l78ct
 
 [C:/Users/Huawei/Desktop/Github/BlazorApp/Blazor_App/Blazor_App/Client/Shared/FeaturedProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZlYXR1cmVkUHJvZHVjdHMucmF6b3I=
