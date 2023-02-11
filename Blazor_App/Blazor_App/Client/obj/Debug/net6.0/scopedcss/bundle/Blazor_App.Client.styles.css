@@ -21,6 +21,11 @@
 .col-visible[b-5vp81raq68] {
     text-align: center;
 }
+/* /Pages/Admin/Products.razor.rz.scp.css */
+img[b-9ma9r3qd37] {
+    max-height: 100px;
+    max-width: 100px;
+}
 /* /Pages/Admin/ProductTypes.razor.rz.scp.css */
 .row[b-ei1p31k9pj] {
     display: flex;
