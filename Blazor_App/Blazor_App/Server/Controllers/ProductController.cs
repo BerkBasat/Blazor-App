@@ -19,7 +19,8 @@ namespace Blazor_App.Server.Controllers
             _productService = productService;
         }
 
-        [HttpGet("admin"), Authorize(Roles = "Admin")]
+        [HttpGet]
+        [Route("admin"), Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<List<Product>>>> GetAdminProducts()
         {
             var result = await _productService.GetAdminProducts();

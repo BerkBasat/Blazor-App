@@ -36,7 +36,8 @@ namespace Blazor_App.Client.Services.ProductService
 
         public async Task DeleteProduct(Product product)
         {
-            var result = await _http.DeleteAsync($"api/product/{product.Id}");
+            await _http.DeleteAsync($"api/product/{product.Id}");
+
         }
 
         public async Task GetAdminProducts()

@@ -199,6 +199,7 @@ namespace Blazor_App.Server.Services.ProductService
             dbProduct.ImageUrl = product.ImageUrl;
             dbProduct.CategoryId = product.CategoryId;
             dbProduct.Visible = product.Visible;
+            dbProduct.Featured = product.Featured;
 
             foreach (var variant in product.Variants)
             {
