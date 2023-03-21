@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7/AaPk2zVHsJ7yCv1vRLdoUwx3VvPnGfZpxr7LeArAnbwFgSRMqdIKwwjJsYz85m4IxCOIb4k6D3dMv6OGmwlg==",
+  "dgSpecHash": "JnxR6n78qMYSrpsIq7rbsE5ce2fEnilElzhQOjQ3oAxeD7aVBGkioxhUaijyHVvTFh7jcS8dzC1Q4e/xF0YLog==",
   "success": true,
   "projectFilePath": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Server\\Blazor_App.Server.csproj",
   "expectedPackageFiles": [
@@ -81,10 +81,10 @@
     "C:\\Users\\Huawei\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512"
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512"
   ],
   "logs": []
 }
