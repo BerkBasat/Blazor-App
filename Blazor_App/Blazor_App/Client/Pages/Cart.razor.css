@@ -3,14 +3,19 @@
     padding: 6px;
 }
 
-image-wrapper {
+.image-wrapper {
     width: 150px;
+    height: 150px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
     padding: 6px;
 }
 
@@ -26,5 +31,4 @@ image-wrapper {
 
 .input-quantity {
     width: 70px;
-
 }

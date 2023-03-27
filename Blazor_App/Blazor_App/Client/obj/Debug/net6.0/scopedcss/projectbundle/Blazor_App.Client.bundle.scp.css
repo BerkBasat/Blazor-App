@@ -68,14 +68,19 @@ img[b-9ma9r3qd37] {
     padding: 6px;
 }
 
-image-wrapper[b-6j08isvs0a] {
+.image-wrapper[b-6j08isvs0a] {
     width: 150px;
+    height: 150px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image[b-6j08isvs0a] {
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
     padding: 6px;
 }
 
@@ -91,7 +96,6 @@ image-wrapper[b-6j08isvs0a] {
 
 .input-quantity[b-6j08isvs0a] {
     width: 70px;
-
 }
 /* /Pages/OrderDetails.razor.rz.scp.css */
 .container[b-zlq4s21n9m] {
