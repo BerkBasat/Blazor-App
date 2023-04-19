@@ -28,7 +28,7 @@ namespace Blazor_App.Client.Services.OrderService
             return result.Data;
         }
 
-        public async Task<string> PlaceOrder()
+        public async Task<string> PlaceOrder() 
         {
             if(await IsUserAuthenticated())
             {

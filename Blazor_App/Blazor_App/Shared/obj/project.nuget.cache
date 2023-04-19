@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "H82EO2a/Vpakfdu3P2xlOfgB9f+KuAOH4ptAPqzklyGs/R/t6/I4xR11Rjs41QM/KcJOyBfMmKGNu9kmDTA+RA==",
+  "dgSpecHash": "h4dU+W+lZWOEgmIikMP/jyWPoR00HMCW2lOUVhAmxetBLRPiBRrGsjZL9zjFOnQBrJf7hV1ZmZdc2VTGqoNHKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Shared\\Blazor_App.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512"
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/fgTLUCVAD12mLLg39fszPtLmILF4LllOcVPMFAlJP/ri1ub4gg5GYRCT/Xjn752P3PUAXtuws1YsmK9CaChGw==",
+  "dgSpecHash": "qfDy649Zjf1cmyg6T4K5XnTu4vMBZRjUhsRsnUIxh9xAhF6EPKVKu+SnGE83aZS4ZPn6pKBY5RMhsxkwrAOvtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Huawei\\Desktop\\Github\\BlazorApp\\Blazor_App\\Blazor_App\\Client\\Blazor_App.Client.csproj",
   "expectedPackageFiles": [
@@ -38,10 +38,10 @@
     "C:\\Users\\Huawei\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.15.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512"
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.16.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
