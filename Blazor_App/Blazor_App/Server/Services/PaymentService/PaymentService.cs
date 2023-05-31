@@ -12,11 +12,11 @@ namespace Blazor_App.Server.Services.PaymentService
         private readonly IAuthService _authService;
         private readonly IOrderService _orderService;
 
-        const string secret = "whsec_5047fc536087ad93e4e460e95ef8eb14867b4d109dba4d1d83883c7f5cf856c3";
+        const string secret = "Your Secret";
 
         public PaymentService(ICartService cartService, IAuthService authService, IOrderService orderService)
         {
-            StripeConfiguration.ApiKey = "sk_test_51MYpZuDLDtHSJHPC2k3lHgiHeBvCqYN0EMirZWELowm9qn6Sq9HmCbClN3VlhoBaPWLKb3Y3Qes5ma0kqXZlMlsr004rcvhoT5";
+            StripeConfiguration.ApiKey = "Your Api Key";
 
             _cartService = cartService;
             _authService = authService;
